@@ -15,6 +15,8 @@ const Home: NextPage = () => {
   const connectWithMetamask = useMetamask();
   const disconnectWallet = useDisconnect();
 
+  useContract("");
+
   return (
     <div>
       {address ? (
