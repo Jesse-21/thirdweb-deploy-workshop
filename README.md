@@ -1,3 +1,7 @@
+## NFT Staking App
+
+Deployed a simple [NFT staking contract](https://github.com/andreitoma8/ERC721-Staking/blob/master/contracts/ERC721Staking.sol) using [thirdweb deploy](https://blog.thirdweb.com/thirdweb-deploy) to build a simple dapp that allows you to stake NFTs from a collection that will passively generate ERC20 tokens for you.
+
 ## Getting Started
 
 First, intall the required dependencies:
@@ -22,7 +26,7 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our hooks to work.
 
-on `pages/index.tsx`, you'll find the `useMetamask` hook that we use to connect the user's wallet to MetaMask, `useDisconnect` that we use to disconnect it, and `useAddress` to check the user's wallet address once connected. 
+on `pages/index.tsx`, you'll find the `useMetamask` hook that we use to connect the user's wallet to MetaMask, `useDisconnect` that we use to disconnect it, and `useAddress` to check the user's wallet address once connected.
 
 ## Learn More
 
